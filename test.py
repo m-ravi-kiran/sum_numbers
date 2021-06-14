@@ -1,6 +1,6 @@
 import unittest
 
-from .app import Sum
+from app import Sum
 
 
 class SimpleTest(unittest.TestCase):
