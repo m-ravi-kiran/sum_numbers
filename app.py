@@ -1,7 +1,9 @@
 import sys
 
+
 class Sum:
     """Sums n intergers"""
+
     def __init__(self, n=0):
         """Constructs a Sum object.
         Args:
@@ -70,7 +72,6 @@ class Sum:
 
 if __name__ == '__main__':
     args = sys.argv[1:]
-    print(args)
-    print(type(args))
-
-    print(Sum(3).sum_numbers(*args))
+    result = Sum(3).sum_numbers(*args)
+    if result:
+        print(result)
