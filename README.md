@@ -1,6 +1,6 @@
 # Sum Numbers
 
-Sums n number of integers.
+Sums 3 integers.
 
 ## Getting Started
 

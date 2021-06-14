@@ -12,7 +12,7 @@ class Sum:
         self.n = n
 
     def sum_numbers(self, *args):
-        """Sums all the intergers sent in the variable function argument
+        """Sums all the integers sent in the variable function argument
         Args:
             *args: All the integers to be summed.
 
